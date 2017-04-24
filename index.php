@@ -40,6 +40,7 @@
 		}
 		echo"<h3>Exo 7</h3>"."<br>";
 
+
 		$dbh=null;
 	}catch(PDOException$e){
 		print"Erreur!:".$e->getMessage().'</br>';
